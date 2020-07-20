@@ -1,0 +1,23 @@
+From 691404770c823456338e6f4dcc107797f52a2227 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Mon, 20 Jul 2020 15:34:28 +0800
+Subject: [PATCH 2/2] removing tests until catch2 dependency is solved
+
+---
+ CMakeLists.txt | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 00de79d..13a14e7 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -140,6 +140,3 @@ install(
+   COMPONENT soss-core
+ )
+ 
+-###############################
+-# Add testing subdirectory
+-add_subdirectory(test)
+-- 
+2.17.1
+
