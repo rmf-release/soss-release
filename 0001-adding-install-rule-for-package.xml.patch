@@ -1,0 +1,29 @@
+From fa8eae95dad5c18df6c3d1cf44a61dc5bc05188c Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Mon, 20 Jul 2020 11:59:02 +0800
+Subject: [PATCH] adding install rule for package.xml
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index dc29bfa..00de79d 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -104,6 +104,12 @@ install(
+   COMPONENT soss-core
+ )
+ 
++install(
++  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
++  DESTINATION share/soss-core
++  COMPONENT soss-core
++)
++
+ if (WIN32)
+   install(
+     FILES "${CMAKE_CURRENT_LIST_DIR}/windows/local_setup_windows.bat"
+-- 
+2.17.1
+
