@@ -21,4 +21,4 @@ tracks:
     ros_distro: eloquent
     vcs_type: git
     vcs_uri: https://github.com/osrf/soss.git
-    version: :{auto}
+    version: :{ask}
