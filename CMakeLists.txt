@@ -47,9 +47,3 @@ install(
   DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
   COMPONENT soss-mock
 )
-
-install(
-  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
-  DESTINATION share/soss-mock
-  COMPONENT soss-mock
-)
