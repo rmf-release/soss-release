@@ -66,3 +66,9 @@ soss_rosidl_install_extension(
   SERVICE
     SOURCES "${CMAKE_CURRENT_LIST_DIR}/resources/convert__srv.cpp.em"
 )
+
+install(
+  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
+  DESTINATION share/soss-ros2
+  COMPONENT soss-ros2
+)
