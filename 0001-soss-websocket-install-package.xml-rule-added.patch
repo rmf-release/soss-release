@@ -1,4 +1,4 @@
-From e7ca0e248c4ed2a3d445fae44afb236fe35fdba3 Mon Sep 17 00:00:00 2001
+From c659a32220fb944961daf5596f07b0f9b2350c1b Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Tue, 21 Jul 2020 12:45:44 +0800
 Subject: [PATCH] soss-websocket install package.xml rule added
