@@ -55,3 +55,9 @@ if(WIN32)
   find_file(JSONDLL NAMES "soss-json.dll" PATHS "${soss-json_DIR}" PATH_SUFFIXES "lib" )
   install (FILES ${JSONDLL} DESTINATION "${CMAKE_INSTALL_PREFIX}/../bin")
 endif()
+
+install(
+  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
+  DESTINATION share/soss-websocket-test
+  COMPONENT soss-websocket-test
+)
