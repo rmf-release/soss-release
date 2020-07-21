@@ -1,0 +1,26 @@
+From 3852056e14babb5e1205747a12293f98557dc1b2 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Tue, 21 Jul 2020 12:48:59 +0800
+Subject: [PATCH] added install rule for package.xml
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 887bd3f..2c0a5b3 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -55,3 +55,9 @@ if(WIN32)
+   find_file(JSONDLL NAMES "soss-json.dll" PATHS "${soss-json_DIR}" PATH_SUFFIXES "lib" )
+   install (FILES ${JSONDLL} DESTINATION "${CMAKE_INSTALL_PREFIX}/../bin")
+ endif()
++
++install(
++  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
++  DESTINATION share/soss-websocket-test
++  COMPONENT soss-websocket-test
++)
+-- 
+2.17.1
+
