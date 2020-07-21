@@ -75,3 +75,9 @@ if(WIN32)
   find_file(MOCKDLL NAMES "soss-mock.dll" PATHS "${soss-mock_DIR}" PATH_SUFFIXES "lib" )
   install (FILES ${MOCKDLL} DESTINATION "${CMAKE_INSTALL_PREFIX}/../bin")
 endif()
+
+install(
+  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
+  DESTINATION share/soss-ros2-test
+  COMPONENT soss-ros2-test
+)
