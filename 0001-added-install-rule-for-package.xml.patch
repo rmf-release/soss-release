@@ -1,4 +1,4 @@
-From 3852056e14babb5e1205747a12293f98557dc1b2 Mon Sep 17 00:00:00 2001
+From 428b11b3bdb74a7e6be945dfe95c13f9c6367389 Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Tue, 21 Jul 2020 12:48:59 +0800
 Subject: [PATCH] added install rule for package.xml
