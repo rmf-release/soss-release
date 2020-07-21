@@ -14,7 +14,7 @@
 
   <depend>soss-core</depend>
   <depend>soss-json</depend>
-  <depend>openssl-dev</depend>
+  <depend>libssl-dev</depend>
   <depend>libwebsocketpp-dev</depend>
 
   <export>
