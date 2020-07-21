@@ -1,0 +1,29 @@
+From e7ca0e248c4ed2a3d445fae44afb236fe35fdba3 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Tue, 21 Jul 2020 12:45:44 +0800
+Subject: [PATCH] soss-websocket install package.xml rule added
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e24cc50..c6249d9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -67,6 +67,12 @@ soss_install_middleware_plugin(
+   TYPES websocket_client websocket_server
+ )
+ 
++install(
++  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
++  DESTINATION share/soss-websocket
++  COMPONENT soss-websocket
++)
++
+ include(CTest)
+ 
+ if(BUILD_TESTING)
+-- 
+2.17.1
+
