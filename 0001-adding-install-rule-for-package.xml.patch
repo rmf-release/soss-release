@@ -1,0 +1,26 @@
+From 0e70b39ac25652cdc99447bb7032d255ba2f612a Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Tue, 21 Jul 2020 12:21:02 +0800
+Subject: [PATCH] adding install rule for package.xml
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9c9101a..d265a72 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -65,3 +65,9 @@ install(
+   DESTINATION "${soss_json_config_dir}"
+   COMPONENT soss-json
+ )
++
++install(
++  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
++  DESTINATION share/soss-json
++  COMPONENT soss-json
++)
+-- 
+2.17.1
+
