@@ -1,0 +1,26 @@
+From cd16939de1f243f1f5b5e04e49117c624fee7063 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Tue, 21 Jul 2020 12:41:39 +0800
+Subject: [PATCH] adding package.xml install rule for soss-rosidl
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f24a05a..0723853 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -36,3 +36,9 @@ install(
+   DESTINATION "${soss_rosidl_share_dir}"
+   COMPONENT soss-rosidl
+ )
++
++install(
++  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
++  DESTINATION share/soss-rosidl
++  COMPONENT soss-rosidl
++)
+-- 
+2.17.1
+
