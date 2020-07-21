@@ -1,4 +1,4 @@
-From 691404770c823456338e6f4dcc107797f52a2227 Mon Sep 17 00:00:00 2001
+From 395c2e992f7b4cba40903900c00eddfdb0d0840e Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Mon, 20 Jul 2020 15:34:28 +0800
 Subject: [PATCH 2/2] removing tests until catch2 dependency is solved
