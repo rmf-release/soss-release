@@ -67,6 +67,12 @@ soss_install_middleware_plugin(
   TYPES websocket_client websocket_server
 )
 
+install(
+  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
+  DESTINATION share/soss-websocket
+  COMPONENT soss-websocket
+)
+
 include(CTest)
 
 if(BUILD_TESTING)
