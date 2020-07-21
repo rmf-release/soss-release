@@ -104,12 +104,6 @@ install(
   COMPONENT soss-core
 )
 
-install(
-  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
-  DESTINATION share/soss-core
-  COMPONENT soss-core
-)
-
 if (WIN32)
   install(
     FILES "${CMAKE_CURRENT_LIST_DIR}/windows/local_setup_windows.bat"
