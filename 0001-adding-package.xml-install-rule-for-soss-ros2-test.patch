@@ -1,4 +1,4 @@
-From 538baf0fd61cd9141ec5c38ae4eceaece37bd9de Mon Sep 17 00:00:00 2001
+From 4af6e8dc7cd7f4f0aba843b47a613864b720ed01 Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Tue, 21 Jul 2020 12:38:39 +0800
 Subject: [PATCH] adding package.xml install rule for soss-ros2-test
