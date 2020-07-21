@@ -14,8 +14,8 @@
 
   <depend>soss-core</depend>
   <depend>soss-json</depend>
-  <depend>OpenSSL</depend>
-  <depend>websocketpp</depend>
+  <depend>openssl-devel</depend>
+  <depend>libwebsocketpp-dev</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
