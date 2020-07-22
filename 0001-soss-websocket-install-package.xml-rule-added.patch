@@ -1,7 +1,7 @@
-From c659a32220fb944961daf5596f07b0f9b2350c1b Mon Sep 17 00:00:00 2001
+From 9c334979a643f08762fa94b9b7edde97dc156bd4 Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Tue, 21 Jul 2020 12:45:44 +0800
-Subject: [PATCH] soss-websocket install package.xml rule added
+Subject: [PATCH 1/2] soss-websocket install package.xml rule added
 
 ---
  CMakeLists.txt | 6 ++++++

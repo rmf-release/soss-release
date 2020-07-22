@@ -1,0 +1,25 @@
+From 6abaf0fc0585dcd09c0ba20a142cb69bce794c1d Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Wed, 22 Jul 2020 13:01:53 +0800
+Subject: [PATCH 2/2] removing test until we make catch2 available
+
+---
+ CMakeLists.txt | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index c6249d9..b13a397 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -73,8 +73,3 @@ install(
+   COMPONENT soss-websocket
+ )
+ 
+-include(CTest)
+-
+-if(BUILD_TESTING)
+-  add_subdirectory(unit-test)
+-endif()
+-- 
+2.17.1
+
