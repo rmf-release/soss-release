@@ -65,9 +65,3 @@ install(
   DESTINATION "${soss_json_config_dir}"
   COMPONENT soss-json
 )
-
-install(
-  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
-  DESTINATION share/soss-json
-  COMPONENT soss-json
-)
