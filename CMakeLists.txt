@@ -140,3 +140,6 @@ install(
   COMPONENT soss-core
 )
 
+###############################
+# Add testing subdirectory
+add_subdirectory(test)
