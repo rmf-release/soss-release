@@ -36,9 +36,3 @@ install(
   DESTINATION "${soss_rosidl_share_dir}"
   COMPONENT soss-rosidl
 )
-
-install(
-  FILES "${CMAKE_CURRENT_LIST_DIR}/package.xml"
-  DESTINATION share/soss-rosidl
-  COMPONENT soss-rosidl
-)
