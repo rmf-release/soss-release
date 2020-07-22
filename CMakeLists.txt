@@ -73,3 +73,8 @@ install(
   COMPONENT soss-websocket
 )
 
+include(CTest)
+
+if(BUILD_TESTING)
+  add_subdirectory(unit-test)
+endif()
