@@ -1,0 +1,16 @@
+ros-foxy-soss-rosidl (2.1.0-2focal) focal; urgency=high
+
+  * Cross-compatibility with eloquent and foxy (#44 <https://github.com/osrf/soss/issues/44>)
+  * Contributors: Grey, Marco A. Gutiérre
+
+ -- Grey <grey@openrobotics.org>  Thu, 24 Sep 2020 00:00:00 -0000
+
+ros-foxy-soss-rosidl (2.0.0-2focal) focal; urgency=high
+
+  * Add Windows compatibility (#18 <https://github.com/osrf/soss/pull/18>)
+  * Support both Crystal and Dashing (#16 <https://github.com/osrf/soss/pull/16>)
+  * Have soss-rosidl find its transitive dependency on soss-core (#5 <https://github.com/osrf/soss/pull/5>)
+
+ -- Grey <grey@openrobotics.org>  Thu, 23 Jul 2020 00:00:00 -0000
+
+
