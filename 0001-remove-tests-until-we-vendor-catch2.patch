@@ -1,0 +1,25 @@
+From b489b9371b20b49c6cdf37513646ee51b9993878 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Thu, 8 Oct 2020 04:45:48 +0000
+Subject: [PATCH] remove tests until we vendor catch2
+
+---
+ CMakeLists.txt | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index a5fcef9..20dbb50 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -68,8 +68,3 @@ soss_install_middleware_plugin(
+   TYPES websocket_client websocket_server
+ )
+ 
+-include(CTest)
+-
+-if(BUILD_TESTING)
+-  add_subdirectory(unit-test)
+-endif()
+-- 
+2.25.1
+
