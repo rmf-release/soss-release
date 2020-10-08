@@ -1,0 +1,17 @@
+ros-foxy-soss-ros2-test (2.1.0-3focal) focal; urgency=high
+
+  * Cross-compatibility with eloquent and foxy (#44 <https://github.com/osrf/soss/issues/44>)
+  * Contributors: Grey, Marco A. Gutiérrez
+
+ -- Grey <grey@openrobotics.org>  Thu, 24 Sep 2020 00:00:00 -0000
+
+ros-foxy-soss-ros2-test (2.0.0-3focal) focal; urgency=high
+
+  * Add Windows compatibility (#18 <https://github.com/osrf/soss/pull/18>)
+  * Feature/dashing test (#17 <https://github.com/osrf/soss/pull/17>)
+  * Support both Crystal and Dashing (#16 <https://github.com/osrf/soss/pull/16>)
+  * Added cxx14 flag to ros2-test
+
+ -- Grey <grey@openrobotics.org>  Thu, 23 Jul 2020 00:00:00 -0000
+
+
