@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>soss-websocket-test</name>
+  <version>2.1.0</version>
+  <description>The SOSS package for testing websockets</description>
+
+  <maintainer email="grey@openrobotics.org">Grey</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_rolling</buildtool_depend>
+
+  <depend>soss-websocket_rolling</depend>
+  <depend>soss-mock_rolling</depend>
+
+  <exec_depend>soss-core_rolling</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
