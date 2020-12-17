@@ -1,0 +1,22 @@
+From 7ef9e7a8837d6c81d4e104a9d238c5bbcfc1ad5e Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Thu, 17 Dec 2020 14:04:48 +0800
+Subject: [PATCH] removing tests
+
+Signed-off-by: Marco A. Gutierrez <marco@openrobotics.org>
+---
+ CMakeLists.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index dc29bfa..b1f5be1 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -136,4 +136,3 @@ install(
+ 
+ ###############################
+ # Add testing subdirectory
+-add_subdirectory(test)
+-- 
+2.25.1
+
