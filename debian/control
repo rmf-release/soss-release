@@ -1,0 +1,12 @@
+Source: ros-rolling-soss-ros2-test
+Section: misc
+Priority: optional
+Maintainer: Grey <grey@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-soss-core, ros-rolling-soss-mock, ros-rolling-soss-ros2, ros-rolling-soss-rosidl, ros-rolling-test-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-soss-ros2-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-soss-core, ros-rolling-soss-mock, ros-rolling-soss-ros2, ros-rolling-soss-rosidl, ros-rolling-test-msgs, ros-rolling-ros-workspace
+Description: The SOSS package to test ros2
