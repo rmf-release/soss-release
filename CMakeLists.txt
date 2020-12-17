@@ -136,4 +136,3 @@ install(
 
 ###############################
 # Add testing subdirectory
-add_subdirectory(test)
