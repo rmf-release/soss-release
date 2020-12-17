@@ -68,8 +68,3 @@ soss_install_middleware_plugin(
   TYPES websocket_client websocket_server
 )
 
-include(CTest)
-
-if(BUILD_TESTING)
-  add_subdirectory(unit-test)
-endif()
